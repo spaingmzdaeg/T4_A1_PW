@@ -37,7 +37,8 @@ $sales = array('FIRST'=>array('RED'=>array(9,3),'GREEN'=>array(4,5,8,2)),
 //printArray($arrayStudents);
 
 getPersonalAverage($arrayStudents);
-
+echo "<br >";
+getGroupAverage($arrayStudents);
 
 
 
