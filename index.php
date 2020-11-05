@@ -27,21 +27,17 @@ $arrayStudents = array(
     "Dejaneira" => array(71,74,79,70,89,55),
     "Andrea" => array(98,94,89,90,95,98)
 );
-//mostrar en pantalla
-$sales = array('FIRST'=>array('RED'=>array(9,3),'GREEN'=>array(4,5,8,2)), 
-'SECOND'=>array('RED'=>array(3,5,5,2),'YELLOW'=>array(4,2,5)),
-'THIRD'=>array('BLUE'=>array(1,2,4),'RED'=>array(9,4,6)), 
-'FOUR'=>array('BLUE'=>array(2,3,3,5),'BLACK'=>array(4,5,8,9)));
+
 
 
 //printArray($arrayStudents);
 
-getPersonalAverage($arrayStudents);
+//getPersonalAverage($arrayStudents);
 echo "<br >";
-getGroupAverage($arrayStudents);
+//getGroupAverage($arrayStudents);
+//getSubjectAverage($arrayStudents);
 
-
-
+getSubjectAverage($arrayStudents);
 
 
 
