@@ -28,15 +28,16 @@ $arrayStudents = array(
 
 //printArray($arrayStudents);
 
-//getPersonalAverage($arrayStudents);
+getPersonalAverage($arrayStudents);
 echo "<br >";
-//getGroupAverage($arrayStudents);
-//getSubjectAverage($arrayStudents);
-
-//getSubjectAverage($arrayStudents);
-
-//getHighestAverage($arrayStudents);
-
+getGroupAverage($arrayStudents);
+echo "<br >";
+getSubjectAverage($arrayStudents);
+echo "<br >";
+getSubjectAverage($arrayStudents);
+echo "<br >";
+getHighestAverage($arrayStudents);
+echo "<br >";
 getStudentsAboveAverage($arrayStudents);
 
 
