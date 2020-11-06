@@ -34,8 +34,6 @@ getGroupAverage($arrayStudents);
 echo "<br >";
 getSubjectAverage($arrayStudents);
 echo "<br >";
-getSubjectAverage($arrayStudents);
-echo "<br >";
 getHighestAverage($arrayStudents);
 echo "<br >";
 getStudentsAboveAverage($arrayStudents);
