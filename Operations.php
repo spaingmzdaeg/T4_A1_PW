@@ -115,7 +115,30 @@ function getSubjectAverage($arrayStudents){
 }
 
 
+function getHighestAverage($arrayStudents){
 
+    $hightestAverage = 0;
+    $hightestStudent = '';
+
+    foreach($arrayStudents as $key => $value) {
+        //echo 'Student: '.$key.'<br />';
+        //echo '<br />';
+        if((array_sum($value)/6) > $hightestAverage){
+            $hightestAverage = (array_sum($value)/6);
+            $hightestStudent = $key;
+        }
+        //echo 'Student: '.$key.' Average:'.number_format((array_sum($value)/6));
+    
+        foreach($value as $s_key => $s_value) {
+            //echo '<br />';
+           // echo 'School Subject'.($s_key+1).' => '.$s_value.'<br />';
+        }
+        //echo '<br />';
+    }
+
+    echo 'Hightest Average:'.$hightestStudent.'With :'.number_format($hightestAverage);
+
+}
 
 
 ?>

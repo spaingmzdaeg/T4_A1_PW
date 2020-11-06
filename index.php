@@ -10,10 +10,6 @@
 
     include 'Operations.php';
 
-    $vectorAlumnos = array("Chester"=>65,56,34,44,54,12,"Chente"=>75,86,100,100,87,89
-,"Xochitl"=>75,80,80,74,84,72,"Chente"=>65,56,34,44,54,12,"Chente"=>65,56,34,44,54,12
-,"Chente"=>65,56,34,44,54,12,"Chente"=>65,56,34,44,54,12,"Chente"=>65,56,34,44,54,12
-,"Chente"=>65,56,34,44,54,12,"Chente"=>65,56,34,44,54,12);
 
 $arrayStudents = array(
     "Chente" => array(78,54,89,40,55,88),
@@ -30,14 +26,16 @@ $arrayStudents = array(
 
 
 
-//printArray($arrayStudents);
+printArray($arrayStudents);
 
 //getPersonalAverage($arrayStudents);
 echo "<br >";
 //getGroupAverage($arrayStudents);
 //getSubjectAverage($arrayStudents);
 
-getSubjectAverage($arrayStudents);
+//getSubjectAverage($arrayStudents);
+
+getHighestAverage($arrayStudents);
 
 
 
