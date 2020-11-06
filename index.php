@@ -26,7 +26,7 @@ $arrayStudents = array(
 
 
 
-//printArray($arrayStudents);
+printArray($arrayStudents);
 
 getPersonalAverage($arrayStudents);
 echo "<br >";
